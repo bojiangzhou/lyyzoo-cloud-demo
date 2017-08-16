@@ -7,8 +7,8 @@ spring:
   # git管理配置
   cloud.config:
     server.git:
-      uri: https://github.com/bojiangzhou/lyyzoo-cloud.git
-      searchPaths: /config
+      uri: https://github.com/bojiangzhou/lyyzoo-cloud-demo.git
+      searchPaths: /cloud-config-repo
       username: bojiangzhou
       password: 90313lz7108
 
