@@ -1,0 +1,22 @@
+
+server:
+    port: 1091 #${random.int[9000,10000)} # 随机端口
+#    address: http://127.0.0.1
+#    context-path: /service-a
+
+#定位Git中的资源
+spring:
+    application.name: SERVICE-A
+
+#    mvc:
+#      view:
+#        prefix: /view
+#        suffix: .jsp
+
+eureka:
+    client.service-url:
+        defaultZone: http://127.0.0.1:8761/eureka/
+    instance:
+        hostname: 127.0.0.1
+        instance-id: ${eureka.instance.hostname}:${server.port}
+

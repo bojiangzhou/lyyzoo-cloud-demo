@@ -1,0 +1,21 @@
+
+server:
+    port: 1003
+
+spring:
+    application.name: eureka-server
+
+eureka:
+    instance:
+        hostname: server3
+#        namespace: eureka-server
+#        appname: eureka-server
+#        instance-id: eureka-server
+
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url:
+            # ip 必须不同 否则分片不可用
+            defaultZone : http://server1:8761/eureka/,http://server2:1002/eureka/
+

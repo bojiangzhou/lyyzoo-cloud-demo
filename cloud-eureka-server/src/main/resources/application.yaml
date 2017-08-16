@@ -1,0 +1,21 @@
+
+server:
+    port: 8761
+
+spring:
+    application.name: eureka-server
+
+eureka:
+    instance:
+        hostname: server1
+#        namespace: eureka-server
+#        appname: eureka-server
+#        instance-id: eureka-server
+
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url:
+            # 两两互相注册实现高可用 IP必须不同，分片才可用
+            defaultZone: http://server2:1002/eureka/,http://server3:1003/eureka/
+

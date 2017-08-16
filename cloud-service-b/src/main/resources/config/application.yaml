@@ -1,0 +1,23 @@
+
+# 服务配置
+server:
+    port: 1081
+#    context-path: /service-b
+
+#spring 配置
+spring:
+    application.name: service-b
+    datasource:
+        url: ${url}
+        username: ${username}
+        password: ${password}
+        driver-class-name: com.mysql.jdbc.Driver
+
+#mybatis 配置
+mybatis:
+    config: classpath:/config/mybatis-config.xml
+    mapperLocations: classpath:/com/lyyzoo/demo/mapper/*.xml
+
+
+
+

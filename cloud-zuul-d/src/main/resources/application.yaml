@@ -1,0 +1,36 @@
+#端口等配置
+server:
+    port: 1031
+
+#自身服务配置
+spring:
+    application.name: api-gateway
+
+#服务注册
+eureka:
+  client.service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+#路由表配置
+
+# 方式一：通过url直接映射 会把[/service-a/**]映射到[http://127.0.0.1:1006/**]
+#zuul:
+#  routes:
+#      api-a-url.path: /service-a/**
+#      api-a-url.url: http://127.0.0.1:1006/
+
+# 通过url映射的方式对于Zuul来说，并不是特别友好，Zuul需要知道我们所有为服务的地址，才能完成所有的映射配置。
+# 而实际上，我们在实现微服务架构时，服务名与服务实例地址的关系在eureka server中已经存在了，
+# 所以只需要将Zuul注册到eureka server上去发现其他服务，我们就可以实现对serviceId的映射
+zuul:
+  routes:
+    service-a:
+      path: /service-a/**
+      serviceId: SERVICE-A
+    service-b:
+      path: /service-b/**
+      serviceId: SERVICE-B
+
+#SendErrorFilter.error.disable: true
+
+

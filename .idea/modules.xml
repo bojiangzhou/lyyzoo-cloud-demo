@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-feign/cloud-feign.iml" filepath="$PROJECT_DIR$/cloud-feign/cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix/cloud-hystrix.iml" filepath="$PROJECT_DIR$/cloud-hystrix/cloud-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-rabbitmq/cloud-rabbitmq.iml" filepath="$PROJECT_DIR$/cloud-rabbitmq/cloud-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-ribbon/cloud-ribbon.iml" filepath="$PROJECT_DIR$/cloud-ribbon/cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-a/cloud-service-a.iml" filepath="$PROJECT_DIR$/cloud-service-a/cloud-service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-b/cloud-service-b.iml" filepath="$PROJECT_DIR$/cloud-service-b/cloud-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul-d/cloud-zuul-d.iml" filepath="$PROJECT_DIR$/cloud-zuul-d/cloud-zuul-d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+    </modules>
+  </component>
+</project>

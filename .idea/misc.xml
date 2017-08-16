@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1493542400725" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="D:/安装包/dev/JetBrains/style/eclipse-cpp-google-style.xml" />
+    <option name="selectedJavaProfile" value="Google C++" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cloud-service-a" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul-d/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-rabbitmq/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
